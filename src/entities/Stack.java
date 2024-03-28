@@ -35,7 +35,7 @@ public class Stack<Item> implements Iterable<Item> {
         private Node next;
     }
 
-    public Item peek(){
+    public Item peak(){
         if (isEmpty())
             throw new NoSuchElementException("Empty stack");
         
